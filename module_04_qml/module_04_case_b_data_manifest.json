@@ -1,0 +1,21 @@
+{
+  "source_type": "local_static_snapshot",
+  "market_source": "Yahoo Finance via local CSV snapshot",
+  "macro_source": "FRED via local CSV snapshots",
+  "ticker": "SPY",
+  "start_date": "2024-01-01",
+  "end_date": "2025-12-31",
+  "local_market_csv": "SPY_2024-01-01_2025-12-31_daily.csv",
+  "macro_series": [
+    "FEDFUNDS",
+    "CPIAUCSL",
+    "INDPRO"
+  ],
+  "local_macro_csvs": [
+    "FEDFUNDS_2024-01-01_2025-12-31.csv",
+    "CPIAUCSL_2024-01-01_2025-12-31.csv",
+    "INDPRO_2024-01-01_2025-12-31.csv"
+  ],
+  "seed": 42,
+  "note": "Notebook reads from bundled SPY and FRED CSV snapshots so that the regime-classification results match the manuscript's fixed two-year sample window."
+}

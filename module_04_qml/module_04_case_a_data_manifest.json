@@ -1,0 +1,10 @@
+{
+  "source_type": "local_static_snapshot",
+  "market_source": "Yahoo Finance via local CSV snapshot",
+  "ticker": "SPY",
+  "start_date": "2024-01-01",
+  "end_date": "2025-12-31",
+  "local_source_csv": "SPY_2024-01-01_2025-12-31_daily.csv",
+  "seed": 42,
+  "note": "Notebook reads from the bundled SPY daily CSV so that the reported classification results match the manuscript's fixed two-year sample window."
+}
