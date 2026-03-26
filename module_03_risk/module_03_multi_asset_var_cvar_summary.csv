@@ -1,0 +1,4 @@
+method,var_1d_pct,cvar_1d_pct,notes
+Historical,2.293,3.256,empirical portfolio loss quantile
+Normal,2.197,2.779,multivariate normal approximation
+Quantum-inspired PCA,2.390,2.856,PCA-based correlated scenario model

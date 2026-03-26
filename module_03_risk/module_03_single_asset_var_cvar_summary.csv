@@ -1,0 +1,4 @@
+method,var_1d_pct,cvar_1d_pct,notes
+Historical,2.694,3.936,empirical quantile
+Normal-parametric,2.791,3.519,fitted normal loss model
+Quantum-inspired grid,2.775,3.898,histogram-based threshold oracle
