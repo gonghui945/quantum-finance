@@ -1,0 +1,3 @@
+method,portfolio,objective,annualised_return,annualised_vol
+Classical exact search,AMGN / COST / GOOGL,1.261271292445,0.247744791364,0.166854297157
+QAOA (statevector simulation),COST / CSX / GOOGL,1.320968347735,0.230661034431,0.167205439631
