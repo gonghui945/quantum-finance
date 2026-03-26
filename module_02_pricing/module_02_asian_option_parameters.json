@@ -1,0 +1,22 @@
+{
+  "market": {
+    "S0": 100.0,
+    "K": 100.0,
+    "r": 0.02,
+    "sigma": 0.2,
+    "T": 1.0
+  },
+  "simulation": {
+    "n_steps": 32,
+    "n_paths": 200000,
+    "seed": 123
+  },
+  "encoding": {
+    "n_price_qubits": 7,
+    "n_bins": 128
+  },
+  "summary": {
+    "mc_price": 5.1865835085,
+    "discount_factor": 0.9801986733
+  }
+}
