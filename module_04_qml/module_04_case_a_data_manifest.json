@@ -1,0 +1,9 @@
+{
+  "source_type": "dynamic_download",
+  "market_source": "yfinance",
+  "ticker": "SPY",
+  "start_date": "2018-01-01",
+  "end_date": "2025-12-20",
+  "seed": 42,
+  "note": "Notebook downloads market data at runtime; no static local CSV was bundled in the current revision."
+}
